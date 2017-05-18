@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/rsc">
+        <file>images/author.jpg</file>
+        <file>images/background.jpg</file>
+        <file>images/logo.ico</file>
+    </qresource>
+</RCC>

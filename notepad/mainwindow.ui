@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>608</width>
+    <height>408</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;微软雅黑&quot;;</string>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>608</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件(&amp;F)</string>
+    </property>
+    <addaction name="newAction"/>
+    <addaction name="openAction"/>
+    <addaction name="saveAction"/>
+    <addaction name="saveAsAction"/>
+    <addaction name="separator"/>
+    <addaction name="printAAction"/>
+    <addaction name="exitAction"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit_E">
+    <property name="title">
+     <string>编辑(&amp;E)</string>
+    </property>
+    <addaction name="undoAction"/>
+    <addaction name="redoAction"/>
+    <addaction name="separator"/>
+    <addaction name="copyAction"/>
+    <addaction name="pasteAction"/>
+    <addaction name="cutActioin"/>
+    <addaction name="separator"/>
+    <addaction name="findAction"/>
+    <addaction name="selectAllAction"/>
+    <addaction name="separator"/>
+    <addaction name="dateAction"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp_H">
+    <property name="title">
+     <string>帮助(&amp;H)</string>
+    </property>
+    <addaction name="aboutAction"/>
+    <addaction name="aboutQtAction"/>
+    <addaction name="webAction"/>
+   </widget>
+   <widget class="QMenu" name="menuFromt">
+    <property name="title">
+     <string>格式(&amp;O)</string>
+    </property>
+    <addaction name="fontAction"/>
+    <addaction name="colorAction"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menuEdit_E"/>
+   <addaction name="menuFromt"/>
+   <addaction name="menuHelp_H"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="sizeGripEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <action name="newAction">
+   <property name="text">
+    <string>新建(&amp;N)</string>
+   </property>
+  </action>
+  <action name="saveAction">
+   <property name="text">
+    <string>保存(&amp;S)</string>
+   </property>
+  </action>
+  <action name="saveAsAction">
+   <property name="text">
+    <string>另存为(&amp;A)</string>
+   </property>
+  </action>
+  <action name="openAction">
+   <property name="text">
+    <string>打开(&amp;O)</string>
+   </property>
+  </action>
+  <action name="printAAction">
+   <property name="text">
+    <string>打印(&amp;P)</string>
+   </property>
+  </action>
+  <action name="exitAction">
+   <property name="text">
+    <string>退出(&amp;X)</string>
+   </property>
+  </action>
+  <action name="undoAction">
+   <property name="text">
+    <string>撤销(&amp;U)</string>
+   </property>
+  </action>
+  <action name="redoAction">
+   <property name="text">
+    <string>重做(&amp;R)</string>
+   </property>
+  </action>
+  <action name="copyAction">
+   <property name="text">
+    <string>复制(&amp;C)</string>
+   </property>
+  </action>
+  <action name="pasteAction">
+   <property name="text">
+    <string>粘贴(&amp;V)</string>
+   </property>
+  </action>
+  <action name="cutActioin">
+   <property name="text">
+    <string>剪切(&amp;X)</string>
+   </property>
+  </action>
+  <action name="selectAllAction">
+   <property name="text">
+    <string>全选(&amp;A)</string>
+   </property>
+  </action>
+  <action name="dateAction">
+   <property name="text">
+    <string>时间/日期(&amp;D)</string>
+   </property>
+  </action>
+  <action name="fontAction">
+   <property name="text">
+    <string>字体(&amp;F)</string>
+   </property>
+  </action>
+  <action name="colorAction">
+   <property name="text">
+    <string>颜色(&amp;L)</string>
+   </property>
+  </action>
+  <action name="aboutAction">
+   <property name="text">
+    <string>关于作者(&amp;A)</string>
+   </property>
+  </action>
+  <action name="aboutQtAction">
+   <property name="text">
+    <string>关于Qt(&amp;Q)</string>
+   </property>
+  </action>
+  <action name="webAction">
+   <property name="text">
+    <string>官网(&amp;W)</string>
+   </property>
+  </action>
+  <action name="findAction">
+   <property name="text">
+    <string>查找(&amp;F)</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
