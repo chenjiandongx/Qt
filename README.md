@@ -1,6 +1,6 @@
 # Qt 小项目  
 
-都是网上模仿的，一开始什么都不懂，就从模仿开始吧。
+这是刚学编程的时候写的，都是网上模仿的，一开始什么都不懂，就从模仿开始吧。
 
 * 项目一  
     [模仿 Windows 系统的 Notepad 的 Qt 版山寨记事本](https://github.com/chenjiandongx/Qt/blob/master/notepad/README.md)  
